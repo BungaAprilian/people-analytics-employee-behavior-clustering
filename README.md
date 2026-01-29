@@ -17,7 +17,7 @@ The dataset originates from internship activities as a **Data Analyst**.
 The dataset consists of employee behavior assessment records with variables including:
 - Behavioral performance indicators (integrity, commitment, teamwork, leadership, service orientation, communication, self-development, decision-making, and national cohesion)
 - Final work behavior score
-- Monthly observation period (January–July)
+- Monthly observation period (January–July) 2025
 
 > Raw and confidential data are **not included** in this repository.
 
@@ -47,13 +47,13 @@ pip install -r requirements.txt
 
 ## Results Summary
 - Optimal number of clusters identified: **k = 3**
-- Silhouette Score for both K-Means and Hierarchical Clustering: **0.8288**
+- Silhouette Score for both K-Means and Hierarchical Clustering: **0.8290**
 - Employee behavior profiles identified:
-  - **Perilaku Kerja Unggul**
-  - **Perilaku Stabil**
-  - **Perlu Pengembangan**
+  - **Excellent Work Behavior**
+  - **Stable Work Behavior**
+  - **Needs Development**
 - Random Forest model achieved strong predictive performance:
-  - **R² Test: 0.966**
+  - **R² Test: 0.967**
 - Most influential behavioral dimensions include:
   - Integrity
   - Decision-making
